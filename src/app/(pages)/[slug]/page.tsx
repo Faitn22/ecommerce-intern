@@ -53,6 +53,7 @@ export default async function Page({ params: { slug = 'home' } }) {
           <Gutter className={classes.home}>
             <Categories categories={categories} />
           </Gutter>
+
           <Blocks
             blocks={layout}
             disableTopPadding={!hero || hero?.type === 'none' || hero?.type === 'lowImpact'}
