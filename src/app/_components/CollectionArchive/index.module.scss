@@ -41,7 +41,7 @@
   display: grid;
   grid-template-columns: repeat(3, minmax(30%, 1fr));
   gap: 30px;
-  padding: 0;
+  padding: 30px;
   width: 100%;
 
   @include mid-break {
